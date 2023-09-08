@@ -37,7 +37,7 @@ const NewExpenseCard = () => {
         <Title>New Expense</Title>
         <TextInput placeholder="Name a new expense..." />
         <NumberInput icon={CurrencyDollarIcon} placeholder="Amount..." />
-        <Flex className="max-w-full gap-2">
+        <Flex className="max-w-full gap-2 flex-col">
           <Select value={currency} onValueChange={handleCurrencyChange}>
             <SelectItem value="1" icon={CalculatorIcon}>
               USD
