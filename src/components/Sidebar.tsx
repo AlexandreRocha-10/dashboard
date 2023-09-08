@@ -8,7 +8,7 @@ const Sidebar = () => {
       </div>
       <div className="left-3 sm:left-6 fixed top-[100px]">
         <ChartBarIcon width={40} className="p-2 bg-gray-600 rounded-lg text-gray-300 mb-4" />
-        <DocumentIcon width={40} className="p-2 bg-gray-600 rounded-lg text-gray-300 mb-4" />
+        <a href="newexpense"><DocumentIcon width={40} className="p-2 bg-gray-600 rounded-lg text-gray-300 mb-4" /></a>
         <MailIcon width={40} className="p-2 bg-gray-600 rounded-lg text-gray-300 mb-4" />
         <CreditCardIcon width={40} className="p-2 bg-gray-600 rounded-lg text-gray-300 mb-4" />
         <BellIcon width={40} className="p-2 bg-gray-600 rounded-lg text-gray-300 mb-4" />
